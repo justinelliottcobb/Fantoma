@@ -4,8 +4,8 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-rayon = "1"
-wgpu = "24"
+cpal = "0.15"
+amari-core = { path = "../../industrial-algebra/amari/amari-core", default-features = false, features = ["std", "phantom-types"] }
 
 [dev-dependencies]
 
