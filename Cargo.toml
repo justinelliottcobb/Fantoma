@@ -5,7 +5,7 @@ edition = "2024"
 
 [dependencies]
 rayon = "1"
-wgpu = "24"
+wgpu = "28"
 
 [dev-dependencies]
 
